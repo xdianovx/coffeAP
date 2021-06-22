@@ -6,3 +6,10 @@
   width: 116px;
   margin: 42px auto 0;
 }
+
+.footer-link-absolute {
+  position: absolute;
+  left: 50%;
+  bottom: 12px !important;
+  transform: translateX(-50%);
+}

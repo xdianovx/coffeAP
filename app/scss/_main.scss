@@ -9,7 +9,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: #f0f2f5;
+
 }
 
 .container {
@@ -38,8 +38,8 @@ img {
 }
 
 .btn {
-  background: #f0f2f5;
-  border: 1px solid #c6c8cc;
+  background: #FFF1E5;
+  border: 1px solid #E0CDBC;
   box-sizing: border-box;
   border-radius: 24px;
   padding: 8px 16px 8px 43px;
@@ -62,6 +62,8 @@ img {
     opacity: 0.3;
   }
 }
+
+
 
 button {
   padding: 0;
@@ -201,6 +203,23 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   line-height: 18px;
   color: #6d6f72;
   margin-top: 4px;
+}
+
+
+.choice-logo {
+  margin-top: 13px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #989593;
+  display: none;
+  &.active {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 320px) {
