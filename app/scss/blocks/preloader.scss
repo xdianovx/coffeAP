@@ -1,0 +1,34 @@
+.preload {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preload__wrap {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preload__img {
+  width: 256px;
+}
+
+.preload__text {
+  margin-top: 24px;
+  max-width: 251px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* text/tertiary */
+
+  color: #939598;
+}

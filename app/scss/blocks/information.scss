@@ -1,0 +1,112 @@
+.information {
+  margin-top: 8px;
+}
+
+.information__title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #17181a;
+  margin-bottom: 20px;
+}
+
+.information__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #17181a;
+}
+
+.information__image {
+  margin: 0 0 32px 0;
+  padding: 0 24px;
+  &.information__image-fullwidth {
+    padding: 0;
+  }
+}
+
+.information__how {
+  margin-bottom: 24px;
+}
+
+.information__cicle {
+  margin-top: 16px;
+}
+
+.information__models {
+  margin-top: 16px;
+}
+
+.information__block {
+  .information__title {
+    padding: 0 24px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17181a;
+    padding: 0 24px;
+    margin-bottom: 20px;
+    &:nth-child(1) {
+      margin-bottom: 32px;
+    }
+  }
+
+  ul {
+    padding: 0 24px;
+    margin-bottom: 32px;
+    li {
+      position: relative;
+      padding-left: 21px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      color: #17181a;
+      margin-bottom: 2px;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 9px;
+        left: 9px;
+        border-radius: 50%;
+        background: #17181a;
+        width: 3px;
+        height: 3px;
+      }
+    }
+  }
+}
+
+.information__btn {
+  margin-top: 12px;
+  &::before {
+    background-image: url(../img/btn_start.svg);
+    width: 20px;
+    height: 13px;
+  }
+}
+
+.information__link {
+  margin-top: 43px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #17181a;
+
+  a {
+    margin-top: 24px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

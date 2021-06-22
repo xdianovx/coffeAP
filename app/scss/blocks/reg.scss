@@ -1,0 +1,132 @@
+.reg {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &.time {
+    height: calc(100vh - 64px);
+  }
+}
+
+.reg__title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #17181a;
+  margin-bottom: 24px;
+}
+
+.reg__form {
+  .auth__input {
+    margin-top: 24px;
+  }
+
+  textarea {
+    resize: vertical;
+    padding-bottom: 8px;
+    margin-top: 24px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c6c8cc;
+    background: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #939598;
+  }
+}
+
+.reg__form_link {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #17181a;
+}
+
+.reg__checkbox {
+  margin-top: 24px;
+}
+
+.reg__checkbox_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #6d6f72;
+}
+
+.reg__checkbox_wrap {
+  margin-top: 12px;
+  display: flex;
+  .radio {
+    margin-right: 55px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.reg__form_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+
+  button {
+    margin-top: 0;
+  }
+}
+
+.reg__form_login {
+  text-align: right;
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6d6f72;
+  }
+
+  a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #17181a;
+    margin-top: 1px;
+  }
+}
+
+.form__image {
+  width: 100%;
+}
+
+.support__btn {
+  margin-top: 32px;
+  &::before {
+    background-image: url(../img/btn_start.svg);
+    width: 20px;
+    height: 13px;
+  }
+}
+
+.reg__link {
+  padding-bottom: 63px;
+}
+
+@media screen and (max-height: 550px) {
+  .form__image {
+    opacity: 0;
+  }
+}

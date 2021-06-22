@@ -1,0 +1,220 @@
+.relations {
+  margin-top: 8px;
+}
+
+.relations__checkbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+
+  .radio {
+    display: block;
+    margin-bottom: 24px;
+  }
+}
+
+.relations__form {
+  //   height: 100%;
+  background: url(../img/rel-part-1.svg) no-repeat top 162px right 0px;
+  padding-bottom: 80px;
+}
+
+.relations__title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  /* or 136% */
+
+  letter-spacing: 0.1px;
+
+  /* text/primary */
+
+  color: #17181a;
+}
+
+.relations__suptitle {
+  padding-top: 8px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #6d6f72;
+}
+
+.relations__points {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.relations__point {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 88px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #17181a;
+}
+
+.relations__points_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #6d6f72;
+}
+
+.relations__answer {
+  margin-top: 24px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #17181a;
+  margin-bottom: 24px;
+}
+
+.compability {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.compability__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #6d6f72;
+}
+.compability__ul {
+  margin-top: 11px;
+}
+.compability__li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* text/primary */
+
+  color: #17181a;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.compability__li_percent {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #17181a;
+  margin-left: 33px;
+}
+
+.candidate {
+  margin-top: 24px;
+  padding-bottom: 32px;
+  background: url(../img/rel-part-2.svg) no-repeat top 90px right 0;
+}
+
+.candidate__title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #17181a;
+}
+
+.candidate__text {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #17181a;
+}
+
+.candidate__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #17181a;
+  margin-top: 20px;
+}
+
+.relations-you {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 72px);
+  background: url(../img/rel-part-3.svg) no-repeat right 0 top 80px;
+  justify-content: space-between;
+}
+.relations-you__block {
+  margin-bottom: 64px;
+}
+.relations-you__title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #17181a;
+}
+.relations-you__text {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #17181a;
+}
+
+.relations__more {
+  justify-self: flex-end;
+  margin-top: auto;
+  background: #e6e8ed;
+  flex: 0 0 auto;
+  padding: 16px 0 24px 0;
+}
+
+.relations__more_wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.relations__more_icon {
+  width: 20px;
+  margin-top: 6px;
+  margin-right: 25px;
+}
+.relations__more_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #17181a;
+}

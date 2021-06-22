@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__icon">
+            <img src="./img/choice.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="reg">
+      <div class="container">
+        <h2 class="reg__title">
+          Укажите данные, чтобы получить точный прогноз
+        </h2>
+
+        <form action="#" class="reg__form">
+          <div class="auth__input">
+            <label for="date">Дата рождения</label>
+            <input id="date" type="date" />
+            <p class="auth__input_error">Неверный логин или пароль</p>
+          </div>
+
+          <div class="auth__input">
+            <label for="city">Город рождения</label>
+            <input id="city" type="text" placeholder="" />
+            <p class="auth__input_error">Неверный логин или пароль</p>
+          </div>
+
+          <div class="auth__input">
+            <label for="name">Имя</label>
+            <input id="name" type="text" />
+            <p class="auth__input_error">Неверный логин или пароль</p>
+          </div>
+
+          <a href="#" class="reg__form_link">Было изменение имени</a>
+
+          <div class="auth__input">
+            <label for="namelat">Имя на латинице (как в загранпаспорте)</label>
+            <input id="namelat" type="text" />
+            <p class="auth__input_error">Неверный логин или пароль</p>
+          </div>
+
+          <div class="reg__checkbox">
+            <p class="reg__checkbox_title">Ваш пол</p>
+            <div class="reg__checkbox_wrap">
+              <label class="radio">
+                <input type="radio" name="radio" required="" />
+                <div class="radio__text">Женский</div>
+              </label>
+
+              <label class="radio">
+                <input type="radio" name="radio" required="" />
+                <div class="radio__text">Мужской</div>
+              </label>
+            </div>
+
+            <div class="reg__form_footer">
+              <button class="btn information__btn">Далее</button>
+              <div class="reg__form_login">
+                <p>Уже вводили данные?</p>
+                <a href="#">Войти</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="information__link reg__link">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Пользовательское соглащение</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
